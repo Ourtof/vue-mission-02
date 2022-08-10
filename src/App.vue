@@ -1,15 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <PinguinGirl name="Glagla"/>
+  <img alt="jeune pinguine" src="./assets/images/pinguin.jpeg">
+  <PinguinGirl msg="BanquiseBook, le 1er réseau social qui n'a pas froid dans le dos"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PinguinGirl from './components/PinguinGirl.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PinguinGirl
   }
 }
 </script>
